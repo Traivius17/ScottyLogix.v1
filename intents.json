@@ -1,0 +1,328 @@
+{
+  "intents": [
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "Greetings",
+        "what's up",
+        "how are you",
+        "hey",
+        "how is it going",
+        "hello there"
+      ],
+      "responses": [
+        "Hello, it's a pleasure to speak with you!",
+        "How may I help you today?",
+        "Welcome to Scotty's Transportation how can I be of assistance to you?",
+        "Hi how are you?"
+      ]
+    },
+
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "bye bye now",
+        "seeya",
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a great day",
+        "take it easy",
+        "cao",
+        "I am leaving",
+        "later bro"
+      ],
+      "responses": [
+        "Sad to see you go",
+        "It was a pleasure speaking with you",
+        "Please don't hesitate to reach out again if you have any further questions, have a great day",
+        "Goodbye!"
+      ]
+    },
+
+    {
+      "tag": "Age",
+      "patterns": [
+        "how old are you?",
+        "age?",
+        "what is your age",
+        "how old?",
+        "how long you been around"
+      ],
+      "responses": [
+        "My developer is 21 years old, but I was created in the year of 2023"
+      ]
+    },
+
+    {
+      "tag": "Name",
+      "patterns": [
+        "What is your name",
+        "what should i call you",
+        "whats your name",
+        "who are you",
+        "Can you tell me your name",
+        "name?"
+      ],
+      "responses": [
+        "You can call me ScottyLogix",
+        "I'm ScottyLogix, I am Ai Chatbot version 1 of Scotty's Transportation",
+        "I'm ScottyLogix, the assistant for Scotty's Transportation"
+      ]
+    },
+    {
+      "tag": "Established",
+      "patterns": [
+        "how long has the buisness been runnning",
+        "how long you been in buisness",
+        "length of time in trucking",
+        "how long have you had your LLC",
+        "is this buisness new"
+      ],
+      "responses": [
+        "Scotty's Transportation has been in buisness since February 20th 2021."
+      ]
+    },
+
+    {
+      "tag": "DriverPayRate",
+      "patterns": [
+        "how much do you pay your drivers",
+        "how much do yall pay",
+        "whats the pay rate",
+        "pay?",
+        "driver pay rate",
+        "compensation for drivers",
+        "average pay for drivers"
+      ],
+      "responses": ["Drivers get paid 75 cent a mile"]
+    },
+
+    {
+      "tag": "FreightType",
+      "patterns": [
+        "what type of freight do you all haul",
+        "freight haul type",
+        "types of frieght you all haul",
+        "what freight do you carry"
+      ],
+      "responses": [
+        "Scotty's Transportation hauls General Commodity and Hazardous Material"
+      ]
+    },
+
+    {
+      "tag": "DriverPayRate",
+      "patterns": [
+        "how much do you pay your drivers",
+        "how much do yall pay",
+        "whats the pay rate",
+        "pay?",
+        "driver pay rate",
+        "compensation for drivers",
+        "average pay for drivers"
+      ],
+      "responses": ["Drivers get paid 75 cent a mile"]
+    },
+
+    {
+      "tag": "HomeTimePolicy",
+      "patterns": [
+        "how much home time do you get",
+        "home time policy",
+        "when do drivers go home",
+        "how often can I go home",
+        "whats the limit for home time",
+        "is there a max limit for being at home"
+      ],
+      "responses": ["Drivers get 48 hours of home time"]
+    },
+
+    {
+      "tag": "CompanyCulture",
+      "patterns": [
+        "whats the company culture like",
+        "is this a good place to work",
+        "should I work here",
+        "how do you all treat the drivers",
+        "culture?",
+        "good or bad place to work"
+      ],
+      "responses": [
+        "Our utmost priority is to ensure the well-being of our drivers and foster a positive company culture. In fact one of our employees had this to say about us,'The best part about driving for Scottie’s Transportation is working with people who truly look out for each other and always willing to help with any problems. The family atmosphere, great pay, and the open door policy with leadership makes Scottie’s Transportation a great place to work.'"
+      ]
+    },
+
+    {
+      "tag": "Advancement",
+      "patterns": [
+        "are there opportunities for advancement",
+        "promotion opportunities",
+        "are drivers the only job roles?",
+        "can i be something other than a driver",
+        "what are other jobs you offer",
+        "can a driver change job positions"
+      ],
+      "responses": [
+        "Drivers play a pivotal role, but we also offer various growth avenues, including positions like vehicle technician, dispatcher, and detailer. You can pursue these roles either through promotions or by gaining relevant experience"
+      ]
+    },
+
+    {
+      "tag": "Benefits",
+      "patterns": [
+        "Do you all offer benefits",
+        "does the company give benefits",
+        "are there any benefits packages",
+        "benefits",
+        "what else do you offer other than money",
+        "is money the only thing to offer",
+        "offer any other compensation",
+        "do you offer medical benefits",
+        "give dental?",
+        "any vision benefits?"
+      ],
+      "responses": [
+        "Scotty's Transportation offers full medical, dental and vision benefits"
+      ]
+    },
+
+    {
+      "tag": "Distance",
+      "patterns": [
+        "how many miles will i get a week",
+        "average miles a driver gets",
+        "how far will i travel",
+        "whats the distance for routes",
+        "how far drivers go for loads",
+        "miles?",
+        "how far do I have to go for a load",
+        "whats the farthest I have to go?"
+      ],
+      "responses": ["Drivers get at least 2300 miles a week"]
+    },
+
+    {
+      "tag": "Distance",
+      "patterns": [
+        "how many miles will i get a week",
+        "average miles a driver gets",
+        "how far will i travel",
+        "whats the distance for routes",
+        "how far drivers go for loads",
+        "miles?",
+        "how far do I have to go for a load",
+        "whats the farthest I have to go?"
+      ],
+      "responses": ["Drivers get at least 2300 miles a week"]
+    },
+
+    {
+      "tag": "SickAndTimeOff",
+      "patterns": [
+        "do you offer time off",
+        "any sick time?",
+        "sick time policy",
+        "time off policy",
+        "what if i get sick",
+        "vacation time",
+        "what if i want a day off",
+        "how many days off can i put in",
+        "whats the limit on time off"
+      ],
+      "responses": [
+        "Employees are eligible for 3 sick days per quarter, which adds up to a total of 12 sick days per year."
+      ]
+    },
+
+    {
+      "tag": "Communication",
+      "patterns": [
+        "what are the methods of communication",
+        "communication process",
+        "methods of communication",
+        "company communication",
+        "type of communication environment"
+      ],
+      "responses": [
+        "We embrace an open-door communication approach to foster a family-oriented atmosphere, emphasizing transparency, honesty, and the uninhibited flow of information."
+      ]
+    },
+    {
+      "tag": "Communication",
+      "patterns": [
+        "what are the methods of communication",
+        "communication process",
+        "methods of communication",
+        "company communication"
+      ],
+      "responses": [
+        "We embrace an open-door communication approach to foster a family-oriented atmosphere, emphasizing transparency, honesty, and the uninhibited flow of information."
+      ]
+    },
+    {
+      "tag": "Expectations",
+      "patterns": [
+        "what are the expectations reagrding ELDs",
+        "ELD requirements",
+        "logging speciffications",
+        "Do you all use ELDs",
+        "do i have to log my own hours and distance?",
+        "how is the logging done"
+      ],
+      "responses": [
+        "Electronic Logging Devices (ELDs) are mandatory tools for our drivers, ensuring the meticulous monitoring of their hours of service (HOS) and strict compliance with HOS regulations."
+      ]
+    },
+
+    {
+      "tag": "ExpectationsELD",
+      "patterns": [
+        "what are the expectations reagrding ELDs",
+        "ELD requirements",
+        "logging speciffications",
+        "Do you all use ELDs",
+        "do i have to log my own hours and distance?",
+        "how is the logging done"
+      ],
+      "responses": [
+        "Electronic Logging Devices (ELDs) are mandatory tools for our drivers, ensuring the meticulous monitoring of their hours of service (HOS) and strict compliance with HOS regulations."
+      ]
+    },
+
+    {
+      "tag": "SafetyRecord",
+      "patterns": [
+        "what are the safety practices",
+        "How do you all enforce safety",
+        "what safety measurers are implemented",
+        "saftey records",
+        "do you all have a good safety record",
+        "is safety a priority?",
+        "safety"
+      ],
+      "responses": [
+        "At Scotty's Transportation, safety stands as our utmost priority. To maintain a steadfast commitment to safety within our company, we require prospective drivers to possess a minimum of two years of accident-free and citation-free driving experience. We also monitor CSA scores"
+      ]
+    },
+
+    {
+      "tag": "Incidents",
+      "patterns": [
+        "what if i break down",
+        "what happens if i have an emergency",
+        "if my truck breaks down who helps",
+        "how do you all handle break downs",
+        "emergencies",
+        "breakdowns",
+        "who do i call if i need help",
+        "how do you handle breakdowns"
+      ],
+      "responses": [
+        "Here at Scotty's Transportation, we prioritize breakdown prevention. Our fleet consists exclusively of equipment no older than 3 years, ensuring the reliability of our equipment. In the rare event of a breakdown, rest assured that our 24/7 Breakdown Center is fully operational and ready to assist you promptly. For any health-related emergencies, please dial 911 for immediate assistance."
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow import keras
 
-# from keras.models import Sequential
+ from keras.models import Sequential
 # from keras.layers import Dense, Activation, Dropout
 # from keras.optimizers import SGD
 # from keras.preprocessing.sequence import pad_sequences

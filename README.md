@@ -33,9 +33,11 @@
 
 ### Type in your question into the text box and press "Enter"
 
+### Watch ScottyLogix respond below
+
 # Access the app here: https://scottiestransportationllc.streamlit.app/?embed_options=show_footer,dark_theme,show_toolbar
 
-### Watch ScottyLogix respond below
+
 
 
 ## Continuous Improvement:

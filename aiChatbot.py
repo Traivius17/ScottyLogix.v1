@@ -2,7 +2,6 @@ import streamlit as st
 
 import chatbot
 import pandas as pd
-import matplotlib.pyplot as plt
 
 
 @st.cache_data

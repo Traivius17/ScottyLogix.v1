@@ -22,7 +22,7 @@ with open("classes.pk1", "rb") as classes_file:
     classes = pickle.load(classes_file)
 
 
-model = load_model("Scottychatbotmodel.h5")
+model = load_model("perfectedModel.h5")
 
 
 def clean_sentence(sentence):
